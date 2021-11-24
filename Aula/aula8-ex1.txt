@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Aula 8 com CSS</title>
+    <link rel="stylesheet" href="aula8-ex1.css">
+</head>
+
+<body>
+    <h1 class="title">Escola Senai</h1>
+    <ul class="nav-bar">
+        <li><a href="#escola">A Escola</a></li>
+        <li><a href="#cursos">Nossos Cursos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div id="cursos" class="courses">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus et sem at feugiat. Aenean mollis
+            laoreet justo eu malesuada. Sed molestie orci vitae sollicitudin lobortis. Integer sagittis diam non orci
+            elementum lacinia. Morbi odio augue, porta vitae convallis ac, finibus ut sem. Vivamus id arcu ut quam
+            viverra dignissim vel id mi. Nulla pharetra nibh mauris, in iaculis felis fermentum id. Morbi bibendum
+            accumsan sem at rhoncus. Aenean egestas, lectus quis tristique pharetra, sem nisl sodales justo, quis
+            vestibulum justo nibh nec nibh.
+
+            Duis purus orci, placerat sit amet ligula vel, fermentum sodales odio. Sed tincidunt orci gravida, malesuada
+            orci vitae, aliquam leo. Morbi imperdiet nunc ornare laoreet eleifend. Nam tellus augue, posuere eget
+            venenatis at, eleifend posuere dolor. Duis vel nulla vel nisl scelerisque fringilla. In ut urna ligula. Cras
+            iaculis tortor id finibus egestas. Integer sit amet leo urna. Pellentesque metus sem, aliquet a tortor nec,
+            vehicula porta metus. Praesent in ligula risus. Quisque finibus urna maximus lacus dignissim tempor.
+            Phasellus urna nibh, rhoncus ut massa ac, malesuada posuere dui. Donec iaculis et orci vitae finibus. Sed ac
+            libero non elit tempor vulputate vitae a eros. Aliquam tristique suscipit lacus, nec cursus ligula semper
+            sed. Mauris aliquet nec urna quis cursus.</p>
+    </div>
+    <a href="whatsapp" class="whatsapp-btn"><img src="./whatsapp.png" alt="whatsapp"></a>
+</body>
+
+</html>

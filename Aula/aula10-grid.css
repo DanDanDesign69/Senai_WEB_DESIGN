@@ -1,0 +1,26 @@
+.test-grid-a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.flex-com-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+button.ok {
+    color: white;
+    background-color: blue;
+}
+
+button.cancel :hover {
+    color: white;
+    background-color: aquamarine;
+}

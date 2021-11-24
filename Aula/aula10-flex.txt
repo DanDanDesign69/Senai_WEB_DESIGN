@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 10 - flexbox</title>
+    <link rel="stylesheet" href="./aula10-flex.css">
+</head>
+
+<body>
+    <div class="test-flex-a">
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis velit orci, sed pellentesque tellus
+            fringilla eget. Vestibulum ultricies tellus nec neque finibus, a pharetra ex congue. Proin vel pulvinar
+            risus. Sed vitae justo vitae felis elementum interdum. Nunc tincidunt dui sit amet mi vestibulum, commodo
+            auctor massa lobortis. Nullam ac molestie sem. Ut accumsan dui placerat nisl gravida, id tempor sem
+            efficitur. Sed bibendum elit ut dolor suscipit tempor. Etiam at cursus mi, id tincidunt ligula. Nam nec
+            lacinia dolor. Sed viverra velit et libero vehicula tincidunt at id nisl. Proin lacus orci, egestas pulvinar
+            massa vel, placerat venenatis ipsum. Mauris eleifend ipsum quis pellentesque auctor. Vivamus egestas ex dui,
+            vitae ornare erat venenatis ullamcorper.
+
+        </p>
+
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis velit orci, sed pellentesque tellus
+            fringilla eget. Vestibulum ultricies tellus nec neque finibus, a pharetra ex congue. Proin vel pulvinar
+            risus. Sed vitae justo vitae felis elementum interdum. Nunc tincidunt dui sit amet mi vestibulum, commodo
+            auctor massa lobortis. Nullam ac molestie sem. Ut accumsan dui placerat nisl gravida, id tempor sem
+            efficitur. Sed bibendum elit ut dolor suscipit tempor. Etiam at cursus mi, id tincidunt ligula. Nam nec
+            lacinia dolor. Sed viverra velit et libero vehicula tincidunt at id nisl. Proin lacus orci, egestas pulvinar
+            massa vel, placerat venenatis ipsum. Mauris eleifend ipsum quis pellentesque auctor. Vivamus egestas ex dui,
+            vitae ornare erat venenatis ullamcorper.
+
+        </p>
+
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis velit orci, sed pellentesque tellus
+            fringilla eget. Vestibulum ultricies tellus nec neque finibus, a pharetra ex congue. Proin vel pulvinar
+            risus. Sed vitae justo vitae felis elementum interdum. Nunc tincidunt dui sit amet mi vestibulum, commodo
+            auctor massa lobortis. Nullam ac molestie sem. Ut accumsan dui placerat nisl gravida, id tempor sem
+            efficitur. Sed bibendum elit ut dolor suscipit tempor. Etiam at cursus mi, id tincidunt ligula. Nam nec
+            lacinia dolor. Sed viverra velit et libero vehicula tincidunt at id nisl. Proin lacus orci, egestas pulvinar
+            massa vel, placerat venenatis ipsum. Mauris eleifend ipsum quis pellentesque auctor. Vivamus egestas ex dui,
+            vitae ornare erat venenatis ullamcorper.
+
+        </p>
+    </div>
+    <div class="test-flex-b">
+        <button class="ok">Salvar</button>
+        <button class="cancel">Cancelar</button>
+    </div>
+</body>
+
+</html>

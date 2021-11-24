@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#sub-title {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    margin: 10px auto;
+    width: 100%;
+}
+
+#test {
+    visibility: visible;
+}
+
+#test:hover {
+    visibility: hidden;
+}
+
+tr {
+    border: none;
+}
+
+th, td {
+    margin: auto;
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gray;
+}
+
+.formulario {
+    width: 60%;
+    margin: auto;
+    background-color: lightcoral;
+    text-align: center;
+    height: 400px;
+}
+.formulario label{
+    margin-right: 100px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+button.ok {
+    background-color: blue;
+    color: white;
+}
+
+button.cancel {
+    background-color: red;
+    color: white;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 5;
+    right: 5;
+    background-color: greenyellow;
+}
+
+.btn-email {
+    position: absolute;
+    top: 5;
+    right: 5;
+    background-color: purple
+}
+
+.chat {
+    position: fixed;
+    width: 100px;
+    bottom: 20;
+    right: 5;
+    border: 1px solid;
+    display: none;
+}
+
+.meu-span {
+    display: block;
+    background-color: green;
+    text-align: center;
+}

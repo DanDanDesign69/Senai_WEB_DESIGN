@@ -1,0 +1,51 @@
+.tabela {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70;
+  margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.title{
+  text-align: center;
+}
+
+.acoes{
+  display: grid;
+  grid-template-columns: 10px 20px;
+  grid-row-gap: 20px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.salvar{
+  background-color: lightblue;
+  border: 1pxsolid;
+}
+
+.cancelar{
+  background-color: tomato;
+  border: 1pxsolid; 
+}
+
+.editar{
+  background-color: lightgreen;
+  border: 1pxsolid;
+}
+
+.excluir{
+  background-color: red;
+  border: 1pxsolid;
+}	

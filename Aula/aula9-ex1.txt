@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 9 - exercício 1</title>
+    <link rel="stylesheet" href="./aula9-ex1.css">
+</head>
+
+<body>
+    <h1>Aula 9 - testando CSS</h1>
+    <h2>Trabalhando com textos</h2>
+    <div id="buttons">
+        <button class="btn ok right">Salvar</button>
+        <button class="btn cancel right">Cancelar</button>
+        <button class="btn dashed right">Dashed</button>
+        <button class="btn dotted right">Dotted</button>
+        <button class="btn pill">Pill button</button>
+    </div>
+
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <button class="btn ok" type="submit">Submit</button>
+    </form>
+
+    <div id="test-select">
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis velit orci, sed pellentesque tellus
+            fringilla eget. Vestibulum ultricies tellus nec neque finibus, a pharetra ex congue. Proin vel pulvinar
+            risus. Sed vitae justo vitae felis elementum interdum. Nunc tincidunt dui sit amet mi vestibulum, commodo
+            auctor massa lobortis. Nullam ac molestie sem. Ut accumsan dui placerat nisl gravida, id tempor sem
+            efficitur. Sed bibendum elit ut dolor suscipit tempor. Etiam at cursus mi, id tincidunt ligula. Nam nec
+            lacinia dolor. Sed viverra velit et libero vehicula tincidunt at id nisl. Proin lacus orci, egestas pulvinar
+            massa vel, placerat venenatis ipsum. Mauris eleifend ipsum quis pellentesque auctor. Vivamus egestas ex dui,
+            vitae ornare erat venenatis ullamcorper.
+
+            Sed laoreet tortor nec luctus interdum. Nunc non gravida sem. Sed condimentum viverra diam. Curabitur eget
+            aliquet augue. Sed consectetur erat nec justo congue scelerisque. Morbi tincidunt nisl ante, nec varius ex
+            molestie ut. Aenean tellus ex, luctus at mi in, faucibus pellentesque dolor. Etiam vel aliquam velit. Morbi
+            ornare dapibus diam non pellentesque. Curabitur ipsum odio, euismod id erat at, ultrices tempus magna.
+            Curabitur hendrerit ullamcorper condimentum. Maecenas dictum vestibulum nunc, in blandit felis ultrices nec.
+            Nulla est nisl, rutrum in dolor sed, finibus venenatis lectus. Vivamus in cursus mi, vitae feugiat justo.
+
+            Mauris pulvinar magna varius elit consectetur feugiat. Sed fermentum purus eget urna interdum, nec euismod
+            magna tincidunt. Integer dignissim pharetra lorem eu congue. Donec justo eros, molestie in viverra nec,
+            tempus vitae quam. Quisque eget porta sapien. Morbi lorem justo, interdum ut tristique in, venenatis vitae
+            metus. Suspendisse nisl elit, aliquam in blandit at, posuere at velit. Pellentesque laoreet condimentum dui,
+            sit amet scelerisque felis posuere non. In hac habitasse platea dictumst. Nulla fermentum arcu orci, ac
+            convallis lacus convallis id. Etiam cursus id erat sit amet sagittis. Quisque sit amet fringilla erat. Nam
+            porttitor eros eu e</p>
+    </div>
+</body>
+
+</html>

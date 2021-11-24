@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Aula 8 - exercício 2</title>
+        <link rel="stylesheet" href="./aula8-ex2.css">
+    </head>
+    <body>
+        <h1>Cadastro de usuários</h1>
+        <h2 id="sub-title" class="center">Testando CSS com formulários</h2>
+        <form action="" class="formulario">
+            <label>Nome</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label>Idade</label>
+            <input type="number" id="idade" name="idade">
+            <br>
+            <button class="ok">Salvar</button>
+            <button class="cancel">Cancelar</button>
+        </form>
+
+        <div id="test">
+            <table class="center">
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Roner</td>
+                    <td>32</td>
+                    <td>Enable</td>
+                </tr>
+            </table>
+        </div>
+            
+            <button class="btn-whatsapp">WHATSAPP</button>
+            <button class="btn-email">EMAIL</button>
+            
+            <div class="chat">
+                <p>Olá</p>
+                <p>Tudo bem?</p>
+            <input type="text"><button>Enviar</button>
+        </div>
+
+        <span class="meu-span">Meu teste de display</span>
+
+        <div style="height: 400px"></div>
+    </body>
+</html>

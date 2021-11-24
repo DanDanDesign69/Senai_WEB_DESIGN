@@ -1,0 +1,101 @@
+h1 {
+    text-align: center;
+    text-decoration: underline overline;
+    color: blue;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+h2::first-letter {
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+}
+
+.btn {
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn.ok {
+    background-color: blue;
+    color: white;
+}
+
+.btn.cancel {
+    background-color: red;
+    color: white;
+}
+
+.btn.right {
+    margin-right: 10px;
+}
+
+.btn.dashed {
+    border: 2px dashed red;
+    padding: 5px 15px;
+}
+
+.btn.dotted {
+    border: 2px dotted blue;
+    padding: 5px 15px;
+}
+
+.btn.pill {
+    border: 2px solid green;
+    background-color: lightgreen;
+    border-radius: 50px;
+}
+
+#buttons {
+    height: 100px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+}
+
+button:first-of-type {
+    border-radius: 100px;
+}
+
+button:focus {
+    border: 2px yellow dotted !important;
+    padding: 10px 15px !important;
+}
+
+button:hover {
+    border: 2px yellow dotted !important;
+}
+
+input {
+    border-width: 2px;
+}
+
+input:focus {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+#test-select {
+    background: black;
+    color: white;
+}
+
+::selection {
+    background: white;
+    color: black;
+}

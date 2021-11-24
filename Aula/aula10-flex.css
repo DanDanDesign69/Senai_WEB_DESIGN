@@ -1,0 +1,32 @@
+.test-flex-a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.test-flex-a p {
+    width: 300px;
+    text-align: justify;
+}
+
+.test-flex-b {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end ;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+button.ok {
+    color: white;
+    background-color: blue;
+}
+
+button.cancel {
+    color: white;
+    background-color: red;
+}
