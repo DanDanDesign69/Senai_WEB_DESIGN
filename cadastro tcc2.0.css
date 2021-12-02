@@ -1,0 +1,147 @@
+.fundo {
+    background-color: #248D85;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+.skins {
+    font-size: 2.5rem;
+    color: #05E75F;
+}
+
+.formbackground {
+    min-width: 350px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-email {
+    flex: 1 1 100%;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+    align-items: baseline;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.enviar {
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.enviarbtn {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, rgba(225, 223, 223, 0) 100%);
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    color: #FFFFFF;
+    width: 100px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.enviarbtn:hover {
+    background-color: #48A81B;
+    transition: 1s;
+}
+
+.resetbtn {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, rgba(225, 223, 223, 0) 100%);
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    color: #FFFFFF;
+    width: 100px;
+}
+
+.resetbtn:hover {
+    background-color: #FF0000;
+    transition: 1s;
+}
+
+.voltarbtn {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FAFAFA 100%);
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px;
+    height: 15px;
+}
+
+.voltarbtn:hover {
+    background-color: #48A81B;
+    transition: 1s;
+}
+
+.input-group1{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    .formbackground {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: unset;
+        margin: unset;
+        border: unset;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        height: 2rem;
+    }
+
+    input[type="radio"] {
+        transform: scale(1.5);
+        margin-right: 10px;
+    }
+
+    .input-group1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .item {
+        margin-bottom: 20px;
+        align-items: flex-start;
+        color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+    }
+}

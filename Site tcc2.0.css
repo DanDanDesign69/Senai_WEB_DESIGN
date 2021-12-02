@@ -1,49 +1,55 @@
-.fundo {
+.icone {
+    display: flex;
+    justify-items: center;
+
+}
+
+body {
     background: linear-gradient(290deg, #05C68C 0%, #474F7E 100%);
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
 
 .header-area {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    height: 3rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .navbar a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin-right: 200px;
+
 }
 
-.navbarbtns{
+.navbarbtns {
     transition: 0.7s;
     border-radius: 40px;
     opacity: 0.6;
 }
 
-.navbarbtns:hover{
+.navbarbtns:hover {
     border: 1px solid #f2f2f2;
     opacity: 1;
     transition: 0.7s;
     border-radius: 40px;
 }
 
-.skins{
+.skins {
     font-size: 3rem;
     color: #05E75F;
 }
@@ -52,9 +58,8 @@ h1 {
 .pesquisar {
     border-radius: 30px;
     height: 30px;
-    float: left;
-    border-top:3px solid #FFFFFF;
-    border-bottom:3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
     border-left: #FFFFFF;
     border-right: #FFFFFF;
     background-color: #D0D0D0;
@@ -69,6 +74,7 @@ h1 {
     height: 30px;
     color: #FFFFFF;
     width: 100px;
+    text-align: center;
 }
 
 .btnbranco:hover {
@@ -78,7 +84,7 @@ h1 {
 
 .intro-area {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .intro {
@@ -113,7 +119,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 40px;
     color: #f2f2f2;
-    padding: 1rem;
+    padding: 0.2rem;
 }
 
 .compra:hover {
@@ -121,7 +127,7 @@ h1 {
     background-color: #474F7E;
 }
 
-.seta{
+.seta {
     width: 20px;
 }
 
@@ -131,7 +137,7 @@ div.container {
 }
 
 .destaques {
-    color:#f2f2f2;
+    color: #f2f2f2;
     font-size: 2rem;
 }
 
@@ -165,22 +171,26 @@ div.scrollmenu a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:100%;
+    height: 100%;
+    margin-left: 50px;
 }
 
-.ImgMenor{
+.ImgMenor {
     width: 199px;
     border-radius: 60px;
 }
 
-.ImgMaior{
-    width: 360px;
+.ImgMaior {
+    display: flex;
+    align-self: center;
+    width: 100%;
     height: 100%;
     border-radius: 60px;
     margin-left: 50px;
+    margin-top: 80px;
 }
 
-.produtos{
+.produtos {
     border-radius: 30px;
     border: solid 1px #FFFFFF;
 }
@@ -189,18 +199,20 @@ div.scrollmenu a {
     margin-right: 50px;
     margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .header {
-    color:#f2f2f2;
+    color: #f2f2f2;
     font-size: 3rem;
-    text-align: end;
-    margin-right: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: auto;
 }
 
 .header2 {
-    color:#f2f2f2;
+    color: #f2f2f2;
     font-size: 3rem;
     text-align: end;
     margin-right: 200px;
@@ -212,33 +224,114 @@ div.scrollmenu a {
     justify-content: space-around;
 }
 
-.firstline{
+.firstline {
     margin-bottom: 100px;
 }
 
-.products{
-    border-radius: 50px;
+.secondline {
+    margin-bottom: 100px;
+}
+
+.products {
     width: 300px;
 }
 
-.comprar{
+.comprar {
     background-color: #48A81B;
     color: #fff;
     font-size: 16px;
     opacity: 0.6;
-    transition: 0.3s;
-    border-radius: 20px;
     border: none;
-    padding-left: 82px;
-    padding-right: 82px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 300px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    transition: 1s;
 }
 
-.comprar:hover{
+.comprar:hover {
+    transition: 1s;
+    padding-top: 30px;
+    padding-bottom: 30px;
     opacity: 1;
+    font-size: 15px;
+    background-image: url(f:/Senai/carrinho.png);
+    background-position: center;
+    background-size: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
 }
 
-.fw-iframe {
-    border-radius: 50px;
+.ola {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:360px) {
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .intro-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: column;
+    }
+
+    .header-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textinho{
+        display: none;
+    }
+
+    .comprar:hover {
+        transition: 1s;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        opacity: 1;
+        font-size: 15px;
+        background-image: url(f:/Senai/carrinho.png);
+        background-position: center;
+        background-size: 30px;
+        color: #48A81B;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
 }
