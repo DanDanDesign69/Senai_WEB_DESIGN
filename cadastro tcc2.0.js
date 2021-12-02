@@ -17,6 +17,7 @@ function validar() {
         nome.focus();
         return;
     }
+    
 
     if (sobrenome.value == "") {
         alert("Por favor , indique seu Sobrenome!");
