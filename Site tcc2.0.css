@@ -1,3 +1,57 @@
+.dropbtn {
+    background-color: #05C68C;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url(f:/Senai/carrinho.png);
+    background-position: center;
+    background-size: 30px;
+    padding: 30px;
+}
+
+.dropdown {
+    z-index:1;
+    color:#f1f1f1;
+    position: fixed;
+}
+
+.dropdown-content {
+    overflow: auto;
+    display: none;
+    background-color: #05C68C;
+    max-height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.cartinho{
+    position: fixed;
+    top: 25%;
+    right: 98%;
+    transform: translate(-90%, -80%);
+}
+
 .icone {
     display: flex;
     justify-items: center;
@@ -105,7 +159,7 @@ h1 {
     min-width: 40%;
 }
 
-.textinho{
+.textinho {
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -124,6 +178,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 40px;
     color: #f2f2f2;
+    padding: 10px;
 }
 
 .compra:hover {
@@ -190,8 +245,8 @@ div.scrollmenu a {
     width: 100%;
     height: 70%;
     border-radius: 60px;
-    margin-left: 50px;
     margin-top: 40px;
+    margin-left: 40px;
 }
 
 .produtos {
@@ -201,6 +256,7 @@ div.scrollmenu a {
 
 .Imgs {
     margin-right: 50px;
+    margin-left: 93px;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
@@ -241,6 +297,10 @@ div.scrollmenu a {
     width: 300px;
 }
 
+.produteros{
+    width: 225px;
+}
+
 .comprar {
     background-color: #48A81B;
     color: #fff;
@@ -264,7 +324,7 @@ div.scrollmenu a {
     background-image: url(f:/Senai/carrinho.png);
     background-position: center;
     background-size: 30px;
-    color: #fff;
+    color: #48A81B;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
@@ -279,6 +339,11 @@ div.scrollmenu a {
 button {
     justify-content: center;
     background-repeat: no-repeat;
+}
+
+.produtoz{
+    color:#f1f1f1;
+    display: flex;
 }
 
 @media only screen and (max-width:360px) {
@@ -334,9 +399,10 @@ button {
         flex-direction: column;
     }
 
-    .imgs {
+    .Imgs {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
     }
 
     .intro-area {
@@ -364,7 +430,7 @@ button {
     }
 
     .secondline {
-       display: none;
+        display: none;
     }
 
     .navbar {
@@ -373,7 +439,11 @@ button {
         flex-direction: column;
     }
 
-    .tenis{
+    .tenis {
         margin-left: 10px;
+    }
+
+    .Textomaior{
+        margin-bottom: 20px;
     }
 }
