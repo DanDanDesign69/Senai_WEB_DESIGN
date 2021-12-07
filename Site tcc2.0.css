@@ -50,6 +50,7 @@
     top: 25%;
     right: 98%;
     transform: translate(-90%, -80%);
+    z-index: 1;
 }
 
 .icone {
@@ -240,10 +241,9 @@ div.scrollmenu a {
 }
 
 .ImgMaior {
-    display: flex;
     align-self: center;
     width: 100%;
-    height: 70%;
+    height: 100%;
     border-radius: 60px;
     margin-top: 40px;
     margin-left: 40px;
@@ -313,6 +313,7 @@ div.scrollmenu a {
     flex-wrap: nowrap;
     flex-direction: row;
     transition: 1s;
+    z-index: -1;
 }
 
 .comprar:hover {
@@ -321,7 +322,7 @@ div.scrollmenu a {
     padding-bottom: 30px;
     opacity: 1;
     font-size: 15px;
-    background-image: url(f:/Senai/carrinho.png);
+    background-image: url(F:/Senai/carrinho.png);
     background-position: center;
     background-size: 30px;
     color: #48A81B;

@@ -5,7 +5,7 @@ function pegadados(produto, preco, imagem) {
     cart.push({
         produto,
         preco,
-        imagem
+        imagem,
     });
     console.log(cart);
     carrinho()
@@ -24,7 +24,7 @@ function carrinho() {
         prod.innerHTML = item.produto;
         prod.classList.add("produtoz");
         let cost = document.createElement("span");
-        cost.innerHTML = item.preco
+        cost.innerHTML = item.preco;
         li.appendChild(prod);
         li.appendChild(cost);
         lista.appendChild(li);
