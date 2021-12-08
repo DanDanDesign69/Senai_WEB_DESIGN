@@ -1,89 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html.>
+
   <head>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.6.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.6.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.6.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="Site tcc2.0.css">
   </head>
+
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    <div class="container">
+      <div class="header-area">
+        <h1>Loja<span class="skins">Skins</span></h1>
+        <a href="cadastro%20tcc2.0.html" class="btnbranco">Cadastre-se</a>
+      </div>
+
+      <div class="navbar">
+        <a href="#Bones" class="navbarbtns">Bonés</a>
+        <a href="#Acessórios" class="navbarbtns">Acessórios</a>
+        <a href="#Camisetas" class="navbarbtns">Camisetas</a>
+        <a href="#Calçados" class="navbarbtns">Calçados</a>
+        <input class="pesquisar" type="search" placeholder="Pesquisar">
+      </div>
+      <div class="search-bar">
+      </div>
+
+      <div class="intro-area">
+        <div class="intro">
+          <div class="Textomaior">
+            <p class="vestidoPara">VESTIDO PARA</p>
+            <span class="serNotado">SER NOTADO</span>
+          </div>
+          <div class="Textomaior-btn">
+            <div class="textinho">
+              <span class="lorem">"Lorem ipsum dolore sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum."
+              </span>
+            </div>
+            <div>
+              <a href="#Bones" class="compra">Começar Compra<img src="symbole-fleche-droite-jaune.png"
+                  class="seta"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="Imgs">
+          <div class="ImgMenors">
+            <div>
+              <img src="anéru.jpg" class="ImgMenor">
+            </div>
+            <div class="tenis">
+              <img src="Tenis-Preto-e-Branco-Ride-Anjuss--PADRAO-33.jpg" class="ImgMenor">
+            </div>
+          </div>
+          <img src="imgmaior.jpg" class="ImgMaior">
+        </div>
+      </div>
+      <div class="cartinho">
+        <div id="carrinhos" class="dropdown">
+          <button class="dropbtn"></button>
+          <ul id='carrinho-item' class="dropdown-content">
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h3 class="destaques">Destaques</h3>
+        <div class="scrollmenu">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+          <img src="gh-closet-organization-1583437747.png" class="shortinhos">
+        </div>
+      </div>
+
+      <div class="produtos">
+        <div>
+
+          <p class="header" id="Bones">Bombetas</p>
+
+          <div class="flex-container">
+            <div class="firstline"> <img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+
+            <div class="firstline"> <img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+
+            <div class="firstline"> <img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+
+          </div>
+          <div class="flex-container">
+            <div class="secondline"><img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+            <div class="secondline"><img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+            <div class="secondline"><img src="cap.jpg" class="products">
+              <button class="comprar" id="comprar1"
+                onclick="pegadados('Bombeta', '20,00 R$', 'cap.jpg')">Colocar no carrinho</button></div>
+          </div>
+
+        </div>
+
+        <div>
+
+          <p class="header2" id="Acessórios">Acessórios</p>
+
+          <div class="flex-container">
+            <div class="firstline"> <img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+            <div class="firstline"> <img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+            <div class="firstline"> <img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+          </div>
+          <div class="flex-container">
+            <div class="secondline"><img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+            <div class="secondline"><img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+            <div class="secondline"><img src="acessorios.jpg" class="products">
+              <button class="comprar" id="comprar2"
+                onclick="pegadados('Acessórios', '10,00 R$', 'acessorios.jpg')">Colocar no
+                carrinho</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+
+          <p class="header2" id="Camisetas">Camisetas</p>
+
+          <div class="flex-container">
+            <div class="firstline"> <img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+            <div class="firstline"> <img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+            <div class="firstline"> <img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+          </div>
+          <div class="flex-container">
+            <div class="secondline"><img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+            <div class="secondline"><img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+            <div class="secondline"><img src="MSX-0007-006_zoom1.jpg" class="products">
+              <button class="comprar" id="comprar3"
+                onclick="pegadados('Peita', '180,00 R$', 'MSX-0007-006_zoom1.jpg')">Colocar no
+                carrinho</button></div>
+          </div>
+
+        </div>
+
+        <div>
+
+          <p class="header2" id="Calçados">Boot</p>
+
+          <div class="flex-container">
+            <div class="firstline"> <img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+            <div class="firstline"> <img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+            <div class="firstline"> <img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+          </div>
+          <div class="flex-container">
+            <div class="secondline"><img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+            <div class="secondline"><img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+            <div class="secondline"><img src="Boots.jpg"
+                class="products" id="boot">
+              <button class="comprar" id="comprar4"
+                onclick="pegadados('Boot', '400,00 R$', 'Boots.jpg')">Colocar
+                no carrinho</button></div>
+          </div>
+
+        </div>
+      </div>
+      <p class="ola">Site desenvolvido pelo aluno Daniel Alface através do ensino modular
+        de Web-Design oferecido pelo instituto SENAI de Jaguariúna</p>
+
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+    <script src="carrinho.js"></script>
   </body>
-</html>
+</html.

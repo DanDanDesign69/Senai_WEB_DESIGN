@@ -3,7 +3,7 @@
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    background-image: url(f:/Senai/carrinho.png);
+    background-image: url(carrinho.png);
     background-position: center;
     background-size: 30px;
     padding: 30px;
@@ -339,7 +339,7 @@ div.scrollmenu a {
     padding-bottom: 30px;
     opacity: 1;
     font-size: 15px;
-    background-image: url(F:/Senai/carrinho.png);
+    background-image: url(carrinho.png);
     background-position: center;
     background-size: 30px;
     color: #48A81B;
@@ -438,7 +438,7 @@ button {
         padding-bottom: 30px;
         opacity: 1;
         font-size: 15px;
-        background-image: url(f:/Senai/carrinho.png);
+        background-image: url(carrinho.png);
         background-position: center;
         background-size: 30px;
         color: #48A81B;
