@@ -53,6 +53,23 @@
     z-index: 1;
 }
 
+.finish{
+    background-color: #474F7E;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.finish:hover{
+    background-color: #3e8e41;
+    transition: 0.7s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .icone {
     display: flex;
     justify-items: center;

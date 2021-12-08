@@ -1,5 +1,5 @@
 var cart = [];
-
+document.getElementsByClassName("finish").addEventListener("click", finalizarCompra)
 
 function pegadados(produto, preco, imagem) {
     cart.push({
@@ -28,5 +28,18 @@ function carrinho() {
         li.appendChild(prod);
         li.appendChild(cost);
         lista.appendChild(li);
+        let botao = document.createElement("button")
+        botao.classList.add("finish")
+        botao.onclick = finalizarCompra
+        lista.appendChild(botao);
+        botao.textContent = "Finalizar"
+
     }
+}
+
+function finalizarCompra(event) {
+    let lista = document.getElementById("carrinho-item")
+    lista.innerHTML = ""  
+    alert("compra finalizada")
+    
 }
